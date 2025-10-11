@@ -1,7 +1,7 @@
 
 //Countdown
 
-const saleEndDate = new Date("October 11, 2025 23:59:59").getTime();
+const saleEndDate = new Date("October 11, 3025 23:59:59").getTime();
         const countdownFunction = setInterval(function() {
             // Get today's date and time
             const now = new Date().getTime();
