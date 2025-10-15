@@ -1,1 +1,0 @@
-# tanjirs-shop
