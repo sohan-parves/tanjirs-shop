@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Great+Vibes&family=Judson:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="Responsive/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="IMG/logo-1.png">
     <title>Tanjir's Shop</title>
 </head>
@@ -20,31 +21,46 @@
                 <div class="first-col">
                     <a href="#" class="link-tag">
                         <img src="IMG/logo.png" alt="Tanjir's Shop" >
-                        <!-- <h1>Tanjir's Shop</h1> -->
                     </a>
                 </div>
                 <div>
-                    <ul class="nav-ul">
-                        <li class=""><a href="#" class="active link-tag"><i class="fa-solid fa-house"></i> Home</a></li>
-                        <li class="#"><a href="HTML/blog.html" class="link-tag"><i class="fa-solid fa-shop"></i> Shop</a></li>
-                        <li class="#"><a href="#" class="link-tag"><i class="fa-solid fa-blog"></i> Blog</a></li>
-                        <li class="#"><a href="#" class="link-tag"><i class="fa-regular fa-circle-question"></i> About</a></li>
-                        <li class="#"><a href="#" class="link-tag"><i class="fa-solid fa-headset"></i> Contact</a></li>
+                    <ul class="nav-ul mid-menu" id="menu">
+                        <li>
+                            <a href="#" class="active link-tag"><i class="fa-solid fa-house"></i> Home</a>
+                        </li>
+                        <li>
+                            <a href="HTML/blog.html" class="link-tag"><i class="fa-solid fa-shop"></i> Shop</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-tag"><i class="fa-solid fa-blog"></i> Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-tag"><i class="fa-regular fa-circle-question"></i> About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-tag"><i class="fa-solid fa-headset"></i> Contact</a>
+                        </li>
                     </ul>
                 </div>
                 <div>
-                    <ul class="nav-ul">
-                        <li class="User"><a href="#"><i class="fa-solid fa-circle-user"></i></a></li>
-                        <li class="Cart"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <ul class="nav-ul last-menu">
+                        <li class="User">
+                            <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+                        </li>
+                        <li class="Cart">
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
                     </ul>
                 </div>
+                <button class="toggleMenu" id="toggleMenu">
+                    <i class="fas fa-bars"></i>
+                </button>
             </div>
         </nav>
         <div class="discount">
             <p>Get 15% off on your first order</p>
         </div>        
     </header>
-
 
     <!-- Banner containt -->
     <section id="banner">
@@ -271,7 +287,6 @@
     </footer>
 
     
-
     <script src="JS/main.js"></script>
 </body>
 </html>
