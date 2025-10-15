@@ -154,6 +154,10 @@
         grid-template-columns: repeat(1, 1fr);
 
     }
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
 
     /* Categories */
     #catagories {
