@@ -1,0 +1,227 @@
+/* Laptop */
+
+@media screen and (min-with: 992px) and (max-width: 1199.98px) {
+
+    /* New Arrivals */
+    #new-arrivals {
+        height: 80rem !important;
+
+    }
+
+    /* Bestsellers */
+    #bestsellers {
+        height: 80rem !important;
+    }
+}
+
+/* Tablests */
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        position: absolute;
+    }
+
+    /* Banner containt */
+
+    /* New Arrivals */
+    #new-arrivals {
+        height: 80rem;
+
+
+    }
+
+    .card-footer-new-arrivals div:last-child {
+        margin-top: 50px;
+
+    }
+
+    /* Categories */
+    #catagories {
+        height: 80rem;
+    }
+
+    #catagories div {
+        display: grid;
+        grid-gap: 80px;
+    }
+
+    #catagories .wear-box {
+        grid-gap: 0px;
+    }
+
+
+    /* Bestsellers */
+    #bestsellers {
+        height: 80rem;
+        margin-top: 50px;
+
+    }
+}
+
+/* Phone */
+
+@media screen and (max-width: 767px) {
+    body {
+        /* width: 100%; */
+        position: absolute;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 54px;
+        color: #222;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 44px;
+        color: #222;
+    }
+
+    header {
+        position: sticky;
+        max-width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .toggleMenu {
+        display: block;
+    }
+
+
+    .nav-ul {
+        display: none;
+        flex-direction: column;
+        background: #fff;
+        position: absolute;
+        top: 65px;
+        right: 25px;
+        width: 300px;
+        height: auto;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        padding: 20px 0;
+
+    }
+
+    .nav-ul a {
+        padding: 10px 0;
+    }
+
+    .nav-ul.active {
+        display: flex;
+    }
+
+    .mid-menu li {
+        padding-top: 50px;
+    }
+
+    /* .first-col, */
+
+    .last-menu {
+        display: none;
+    }
+
+    /* nav ul li {
+        padding: 200px;
+    } */
+
+    /* Banner containt */
+
+    #banner {
+        font-size: 10px;
+
+    }
+
+    .header-new-arrivals {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .first-header-new-arrivals {
+        margin: 10px 0;
+    }
+
+    /* New Arrivals */
+    #new-arrivals {
+        height: 110rem;
+
+    }
+
+    .card-footer-new-arrivals div:last-child {
+        display: flex;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    /* Categories */
+    #catagories {
+        height: 80rem;
+    }
+
+    #catagories div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 80px;
+    }
+
+    #catagories .wear-box {
+        grid-gap: 0px;
+    }
+
+    /* Bestsellers */
+    #bestsellers {
+        height: 110rem;
+    }
+
+    /* Countdown */
+    #countdown p,
+    h2 {
+        padding: 0 20px;
+
+    }
+
+    #countdown-timer {
+        font-size: medium;
+    }
+
+    #countdown-timer div {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    #countdown-timer div:last-child {
+        margin-right: 0;
+    }
+
+    .countdown-timer-box span:first-child {
+        scale: 2;
+    }
+
+    .countdown-timer-box span:last-child {
+        scale: 0.9;
+    }
+
+    /* Footer */
+    #footer {
+        height: 55rem;
+        text-align: center;
+
+
+    }
+
+    #footer .first-section {
+        display: inline-block;
+        height: 90%;
+        padding-top: 40px;
+
+    }
+
+    .col-footer a h3 {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+}
